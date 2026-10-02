@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="hi-Latn"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PMP Affiliate Partner Program</title>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#1b2a5c;--deep:#0f1b40;--gold:#e08e2b;--blue:#4a6fa5;--pale:#e8eef9;--bg:#f3f5f8;--card:#fff;--text:#1d2440;--muted:#5b6482;--h:#1b2a5c;--line:#d5dcec;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1431;--card:#17214a;--text:#eef1fa;--muted:#aab3d3;--pale:#1e2a5a;--h:#fff;--line:#2c3a73}}
+:root[data-theme="dark"]{--bg:#0d1431;--card:#17214a;--text:#eef1fa;--muted:#aab3d3;--pale:#1e2a5a;--h:#fff;--line:#2c3a73}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--text);font:17px/1.6 Lato,system-ui,sans-serif}
+h1,h2,h3{font-family:'Source Serif 4',Georgia,serif;color:var(--h);line-height:1.25;margin:0 0 .5em}
+h2{font-size:clamp(1.5rem,4.5vw,2.1rem)}h3{font-size:1.15rem}p{margin:0 0 1em}
+.w{max-width:1040px;margin:0 auto;padding:0 20px}.sec{padding:52px 0}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;background:var(--deep);color:#fff}
+nav .w{display:flex;align-items:center;gap:14px;height:60px}
+.logo{font-family:'Source Serif 4',serif;font-weight:700;font-size:1.4rem;margin-right:auto;color:#fff;text-decoration:none}.logo i{color:var(--gold);font-style:normal}
+nav a.l{color:#c9d2f0;text-decoration:none;font-weight:700;font-size:.95rem;padding:6px 4px}nav a.on{color:#fff;border-bottom:2px solid var(--gold)}
+.btn{display:inline-block;background:var(--gold);color:#1a1200;font:900 1rem Lato,sans-serif;padding:13px 24px;border-radius:10px;text-decoration:none;border:0;cursor:pointer}
+.btn.s{padding:8px 16px;font-size:.9rem}.btn.o{background:transparent;color:var(--h);border:2px solid var(--line)}.btn.g{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.4)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.hero{background:var(--deep);color:#fff;padding:64px 0;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;right:-90px;bottom:-110px;width:280px;height:280px;border-radius:50%;background:var(--blue);opacity:.7}
+.hero .w{position:relative;z-index:1}.hero h1{color:#fff;font-size:clamp(2rem,6vw,3.2rem);max-width:15em}
+.hero p{color:#d3dbf5;max-width:32em;font-size:1.1rem}
+.kpis{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0}
+.kpi{background:rgba(255,255,255,.1);border-radius:12px;padding:12px 18px}.kpi b{display:block;font:700 1.7rem 'Source Serif 4',serif;color:var(--gold)}.kpi span{font-size:.85rem;color:#c9d2f0}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+.card.p{border-top:5px solid var(--gold)}
+.price{font:700 2.2rem 'Source Serif 4',serif;color:var(--h)}
+ul.t{list-style:none;padding:0;margin:12px 0}ul.t li{padding:6px 0 6px 26px;position:relative}ul.t li:before{content:"✓";position:absolute;left:0;color:var(--gold);font-weight:900}
+.alt{background:var(--pale)}
+table{width:100%;border-collapse:collapse;background:var(--card);border-radius:12px;overflow:hidden}
+th,td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--line)}th{background:var(--navy);color:#fff;font-size:.9rem}
+.sc{overflow-x:auto}
+label{display:block;font-weight:700;margin:14px 0 6px}
+input,select,textarea{width:100%;font:inherit;padding:12px 14px;border-radius:10px;border:2px solid var(--line);background:var(--bg);color:var(--text)}
+.steps{display:flex;gap:6px;margin-bottom:22px}.steps span{flex:1;height:6px;border-radius:3px;background:var(--line)}.steps .d{background:var(--gold)}
+.opt{display:block;border:2px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:10px;cursor:pointer;font-weight:400}
+.opt input{width:auto;margin-right:8px}.opt:has(input:checked){border-color:var(--gold);background:var(--pale)}
+.tag{display:inline-block;padding:3px 10px;border-radius:99px;font-size:.8rem;font-weight:700}
+.ok{background:#d8f2e0;color:#14532d}.no{background:#fde7c6;color:#7a4300}.gr{background:var(--pale);color:var(--muted)}
+.tabs{display:flex;gap:8px;overflow-x:auto;margin:18px 0}.tabs button{white-space:nowrap}
+.bar{height:10px;background:var(--line);border-radius:5px;overflow:hidden}.bar i{display:block;height:100%;background:var(--gold)}
+.chart{display:flex;align-items:flex-end;gap:8px;height:120px}.chart div{flex:1;background:var(--blue);border-radius:4px 4px 0 0;min-height:4px;text-align:center;color:#fff;font-size:.75rem}
+.note{background:var(--pale);border-left:5px solid var(--gold);padding:12px 16px;border-radius:8px;margin:14px 0}
+.lock{opacity:.55}
+footer{background:var(--deep);color:#c3cbe8;text-align:center;padding:30px 20px;font-size:.9rem}
+@media(max-width:620px){nav .w{gap:8px}nav a.l{font-size:.82rem}}
+</style></head><body>
+<nav><div class="w"><a class="logo" href="#/home">PMP<i>.</i></a>
+<a class="l" href="#/home" data-r="home">Home</a><a class="l" href="#/seats" data-r="seats">Seats</a><a class="l" href="#/dashboard" data-r="dashboard">Dashboard</a>
+<a class="btn s" href="#/join" id="nj">Join</a></div></nav>
+<main id="app"></main>
+<footer><b style="color:#fff;font-family:'Source Serif 4',serif;font-size:1.2rem">PMP Consultancy</b><br>Political Strategy • Management • Technology</footer>
+<script>
+var PRICE=50000,COMM=20,PL={A:{n:'Affiliate Plan',fee:50000,r:COMM,p:'Affiliate Payout'}};
+var AREAS=['Budhana','Charthawal','Khatauli','Purkazi','Shahpur'];
+var SEATS=[['MLA','Budhana'],['Pradhan','Budhana'],['Pradhan','Charthawal'],['MLA','Khatauli'],['Pradhan','Khatauli'],['Pradhan','Purkazi'],['MLA','Shahpur'],['Pradhan','Shahpur']].map(function(s,i){return{id:i,t:s[0],a:s[1],by:i%3==1?'other':null,cand:null}});
+var S={step:0,f:{},u:null,seats:SEATS,tab:'Dashboard',learn:{},tix:[],flt:'All',book:null};
+var $=function(i){return document.getElementById(i)},R=function(n){return '₹'+n.toLocaleString('en-IN')};
+function go(h){location.hash='#/'+h}
+function mine(){return S.seats.filter(function(s){return s.by=='me'})}
+function earned(){return mine().filter(function(s){return s.paid}).length*PRICE*S.u.r/100}
+function render(){var r=(location.hash.split('/')[1]||'home');
+document.querySelectorAll('nav a.l').forEach(function(a){a.classList.toggle('on',a.dataset.r==r)});
+$('nj').textContent=S.u?S.u.code:'Join';$('nj').href=S.u?'#/dashboard':'#/join';
+$('app').innerHTML=(V[r]||V.home)();window.scrollTo(0,0)}
+addEventListener('hashchange',render);
+var V={};
+V.home=function(){return `<header class="hero"><div class="w"><span class="tag" style="background:var(--gold);color:#1a1200">Affiliate Partner Program</span>
+<h1 style="margin-top:16px">Apne area ke Pradhan aur MLA candidate ko PMP dilaiye. Har sale par commission kamaiye.</h1>
+<p>PMP ek political operations platform hai: team, survey, training aur dashboard ek jagah. Aap bas customer laate hain, baaki hum sambhalte hain.</p>
+<div class="kpis"><div class="kpi"><b>${COMM}%</b><span>commission har sale par</span></div><div class="kpi"><b>MLA + Pradhan</b><span>dono seats par kaam</span></div><div class="kpi"><b>Training</b><span>course aur dashboard saath</span></div></div>
+<a class="btn" href="#/join">Affiliate Banein</a> <a class="btn g" href="#/seats">Seats dekhiye</a></div></header>
+<section class="sec"><div class="w"><h2>Aap kaise kamaayenge?</h2>
+<div class="grid">${['Affiliate banein|Details, OTP, area aur plan chuniye. Payment ke baad aapka Affiliate Code ban jata hai.','Seat book kijiye|MLA ya Pradhan ki seat chuniye, candidate ki details bhariye aur OTP se verify kijiye.','Candidate plan le|Candidate PMP plan leta hai. Payment booking ke time ya baad mein ho sakti hai.','Payout paayein|Seat Paid hote hi aapka commission dashboard mein aa jata hai.'].map(function(x,i){x=x.split('|');return `<div class="card"><h3>${i+1}. ${x[0]}</h3><p style="margin:0">${x[1]}</p></div>`}).join('')}</div></div></section>
+<section class="sec alt"><div class="w"><h2>Affiliate banne mein aapko kya milega?</h2>
+<div class="grid"><div class="card p"><h3>Affiliate Partner</h3>
+<ul class="t"><li>${COMM}% commission har successful sale par</li><li>Apna Affiliate Code</li><li>Dashboard, Learnings, Bookings, Help</li><li>MLA aur Pradhan seats book karne ki suvidha</li></ul><a class="btn" href="#/join">Affiliate banein</a></div>
+<div class="card"><h3>Refundable Security Deposit</h3><p>Affiliate banne ke liye ek refundable security deposit lagta hai. Iski amount form bharte time, payment step par dikhayi jati hai. Ye aapka paisa hai, refundable hai.</p></div></div></div></section>
+<section class="sec"><div class="w"><h2>Do tarah ka territory</h2><div class="grid">
+<div class="card"><h3>Specific Area</h3><p>Ek ward ya territory aapke naam lock ho jati hai. Us area mein sirf aap kaam karenge.</p></div>
+<div class="card"><h3>Freehand</h3><p>Kisi bhi city ya zone mein kaam kijiye. Jahan seat available ho wahan book kijiye.</p></div></div>
+<p style="margin-top:28px"><a class="btn" href="#/join">Abhi shuru kijiye</a></p></div></section>`};
+V.join=function(){var T=['Details','Verify','Area','Deposit','Live'],s=S.step,f=S.f,b='';
+if(S.u&&s<5)s=5;var di=s>3?s-1:s;
+if(s==0)b=`<label>Poora naam</label><input id="n" value="${f.n||''}"><label>Mobile number</label><input id="m" type="tel" inputmode="numeric" value="${f.m||''}"><label>Aadhaar / PAN (KYC)</label><input id="k" value="${f.k||''}"><p class="note">Ye demo hai, asli KYC nahi hota.</p><button class="btn" onclick="nx(0)">Aage badhein</button>`;
+if(s==1)b=`<p>${f.m} par SMS se OTP bheja gaya hai. Demo mein koi bhi 4 ank chalega.</p><label>OTP</label><input id="o" inputmode="numeric" maxlength="4"><br><br><button class="btn" onclick="nx(1)">Verify kijiye</button>`;
+if(s==2)b=`<label class="opt"><input type="radio" name="md" value="Single" ${f.md!='Freehand'?'checked':''}><b>Specific Area</b><br>Ek ward / territory aapke liye lock</label><label class="opt"><input type="radio" name="md" value="Freehand" ${f.md=='Freehand'?'checked':''}><b>Freehand</b><br>Kisi bhi city / zone mein kaam kijiye</label><label>Aapka area</label><select id="ar">${AREAS.map(function(a){return `<option ${f.ar==a?'selected':''}>${a}</option>`}).join('')}</select><br><br><button class="btn" onclick="nx(2)">Aage badhein</button>`;
+if(s==4)b=`<div class="note"><b>Refundable Security Deposit</b><br>${f.md=='Single'?'Specific Area: '+f.ar:'Freehand'}<br>Ye amount refundable hai.<br><b style="font-size:1.4rem">${R(PL[f.pl].fee)}</b></div>${['UPI (GPay / PhonePe / Paytm)','Debit / Credit Card','Net Banking'].map(function(x,i){return `<label class="opt"><input type="radio" name="py" ${i?'':'checked'}>${x}</label>`}).join('')}<button class="btn" onclick="nx(4)">Deposit jama kijiye</button>`;
+if(s==5&&S.u)b=`<h3>Badhai ho, ${S.u.n}!</h3><p>Aapka Affiliate Code:</p><div class="price" style="color:var(--gold)">${S.u.code}</div><p>${S.u.plan.n} · ${S.u.md=='Single'?S.u.ar+' territory':'Freehand'} · <span class="tag ok">Active</span></p><a class="btn" href="#/dashboard">Dashboard kholiye</a>`;
+return `<section class="sec"><div class="w" style="max-width:560px"><h2>Affiliate banein</h2><div class="steps">${T.map(function(t,i){return `<span class="${i<=di?'d':''}"></span>`}).join('')}</div><p style="color:var(--muted)">Step ${di+1}/5 · ${T[di]}</p><div class="card">${b}</div></div></section>`};
+function nx(s){var f=S.f,v=function(i){return $(i)&&$(i).value.trim()};
+if(s==0){f.n=v('n');f.m=v('m');f.k=v('k');if(!f.n||f.m.length<10||!f.k)return alert('Naam, 10 ank ka mobile aur KYC bhariye.')}
+if(s==1&&v('o').length<4)return alert('4 ank ka OTP daaliye.');
+if(s==2){f.md=document.querySelector('[name=md]:checked').value;f.ar=v('ar')}
+if(s==3)f.pl=document.querySelector('[name=pl]:checked').value;
+if(s==4){var p=PL[f.pl];S.u={n:f.n,m:f.m,md:f.md,ar:f.ar,plan:p,r:p.r,code:'PMP-'+(1000+Math.floor(Math.random()*9000))}}
+if(s==2)f.pl='A';S.step=s==2?4:s+1;render()}
+V.seats=function(){var u=S.u;
+var h=`<section class="sec"><div class="w"><h2>MLA / Pradhan Seats</h2><p style="color:var(--muted)">Demo ke sample seats. Booked seat read-only hoti hai.</p>
+${u?'':`<div class="note">Seat book karne ke liye pehle <a href="#/join">affiliate banein</a>.</div>`}
+<div class="tabs">${['All','MLA','Pradhan'].map(function(t){return `<button class="btn s ${S.flt==t?'':'o'}" onclick="S.flt='${t}';render()">${t}</button>`}).join('')}</div><div class="grid">`;
+S.seats.filter(function(s){return S.flt=='All'||s.t==S.flt}).forEach(function(s){
+var out=u&&u.md=='Single'&&s.a!=u.ar,st=s.by?(s.by=='me'?(s.paid?'<span class="tag ok">Booked · Paid</span>':'<span class="tag no">Booked · Unpaid</span>'):'<span class="tag gr">Booked</span>'):'<span class="tag ok">Available</span>';
+h+=`<div class="card"><h3>${s.t} · ${s.a}</h3><p>${st}</p>${s.by?'':(!u?'':out?'<small style="color:var(--muted)">Ye aapke territory ke bahar hai</small>':`<button class="btn s" onclick="S.book=${s.id};render()">Book kijiye</button>`)}</div>`});
+h+='</div>';
+if(S.book!=null){var s=S.seats[S.book];h+=`<div class="card" style="margin-top:28px;max-width:520px"><h3>Booking: ${s.t} · ${s.a}</h3><label>Candidate ka naam</label><input id="cn"><label>Candidate ka mobile</label><input id="cm" type="tel" inputmode="numeric"><label>OTP (demo: koi bhi 4 ank)</label><input id="co" maxlength="4" inputmode="numeric"><label class="opt" style="margin-top:14px"><input type="checkbox" id="cp">Abhi payment karein (${R(PRICE)}). Nahi to baad mein.</label><button class="btn" onclick="bk()">Seat book kijiye</button> <button class="btn o" onclick="S.book=null;render()">Cancel</button></div>`}
+return h+'</div></section>'};
+function bk(){var n=$('cn').value.trim(),m=$('cm').value.trim();if(!n||m.length<10||$('co').value.length<4)return alert('Naam, mobile aur 4 ank ka OTP bhariye.');
+var s=S.seats[S.book];s.by='me';s.cand=n;s.paid=$('cp').checked;s.day=new Date().getDay();S.book=null;render()}
+V.dashboard=function(){var u=S.u;if(!u)return `<section class="sec"><div class="w"><div class="card"><h2>Dashboard abhi locked hai</h2><p>Affiliate ID active hone par dashboard khulta hai.</p><a class="btn" href="#/join">Affiliate banein</a></div></div></section>`;
+var m=mine(),unp=m.some(function(s){return!s.paid}),T=['Dashboard','Territory','Learnings','Bookings','Help','Settings'],b='';
+var t=S.tab;
+if(t=='Dashboard'){var wk=[0,0,0,0,0,0,0];m.forEach(function(s){wk[s.day]++});var mx=Math.max.apply(null,wk.concat(1));
+b=`<div class="grid"><div class="card"><small>Revenue (Paid)</small><div class="price">${R(earned())}</div></div><div class="card"><small>Booked seats</small><div class="price">${m.length}</div></div><div class="card"><small>Unpaid seats</small><div class="price">${m.filter(function(s){return!s.paid}).length}</div></div></div>
+<div class="card" style="margin-top:16px"><h3>Hafte ke bookings</h3><div class="chart">${wk.map(function(v,i){return `<div style="height:${v/mx*100}%">${v||''}</div>`}).join('')}</div><div class="chart" style="height:auto;margin-top:4px;color:var(--muted);font-size:.8rem">${'SMTWTFS'.split('').map(function(d){return `<span style="flex:1;text-align:center">${d}</span>`}).join('')}</div></div>`}
+if(t=='Territory')b=`<div class="card"><h3>Mode: ${u.md}</h3><p>${u.md=='Single'?u.ar+' territory aapke liye lock hai.':'Freehand: aap kisi bhi zone mein kaam kar sakte hain.'}</p><h3>Seat pins</h3>${S.seats.filter(function(s){return u.md!='Single'||s.a==u.ar}).map(function(s){return `<p style="margin:0 0 6px">📍 ${s.t} · ${s.a} ${s.by?(s.by=='me'?'<span class="tag ok">Aapki</span>':'<span class="tag gr">Booked</span>'):'<span class="tag ok">Available</span>'}</p>`}).join('')}</div>`;
+if(t=='Learnings'){var C=['PMP ka parichay','Pradhan se kaise milein','Demo kaise dikhayein','OTP aur booking process','Commission aur payout'];var d=C.filter(function(c,i){return S.learn[i]}).length;
+b=`<div class="card"><h3>DRM Course · ${d}/${C.length} poora</h3><div class="bar"><i style="width:${d/C.length*100}%"></i></div>${C.map(function(c,i){return `<p style="display:flex;justify-content:space-between;align-items:center;margin:14px 0 0"><span>${i+1}. ${c}</span><button class="btn s ${S.learn[i]?'o':''}" onclick="S.learn[${i}]=!S.learn[${i}];render()">${S.learn[i]?'Poora ✓':'Poora kiya'}</button></p>`}).join('')}</div>`}
+if(t=='Bookings')b=`${unp?'<div class="note">Koi seat Unpaid hai. Ledger dikh raha hai, par payout rows locked hain. Sab seats Paid hone par payout khulega.</div>':''}<div class="sc"><table><tr><th>Seat</th><th>Candidate</th><th>Status</th><th>Payout</th></tr>${m.length?m.map(function(s){return `<tr><td>${s.t} · ${s.a}</td><td>${s.cand}</td><td>${s.paid?'<span class="tag ok">Paid</span>':'<span class="tag no">Unpaid</span>'}${s.paid?'':` <button class="btn s o" onclick="S.seats[${s.id}].paid=true;render()">Pay</button>`}</td><td class="${unp?'lock':''}">${unp?'🔒 Locked':R(PRICE*u.r/100)}</td></tr>`}).join(''):'<tr><td colspan=4>Abhi koi booking nahi. <a href="#/seats">Seat book kijiye</a>.</td></tr>'}</table></div>`;
+if(t=='Help')b=`<div class="card"><label>Aapki problem</label><textarea id="tk" rows="3"></textarea><br><br><button class="btn" onclick="var v=$('tk').value.trim();if(v){S.tix.push(v);render()}">Ticket bhejiye</button>${S.tix.map(function(x,i){return `<p style="margin:14px 0 0"><span class="tag no">Open</span> #${101+i} · ${x}</p>`}).join('')}</div>`;
+if(t=='Settings')b=`<div class="card"><h3>Payout</h3><p>${unp||!m.length?'🔒 Payout abhi locked hai. Sab seats Paid hone par khulega.':'✓ Payout unlocked. Total '+R(earned())}</p><h3>Territory lock</h3><p>${u.md=='Single'?u.ar+' territory lock hai.':'Freehand mode, koi lock nahi.'}</p></div>`;
+return `<section class="sec"><div class="w"><div class="card" style="display:flex;flex-wrap:wrap;gap:14px;justify-content:space-between;align-items:center"><div><h3 style="margin:0">${u.n}</h3><small>${u.code} · ${u.plan.n} (${u.r}%) · ${u.md=='Single'?u.ar:'Freehand'}</small></div><span class="tag ok">KYC verified · Active</span></div>
+<div class="tabs">${T.map(function(x){return `<button class="btn s ${t==x?'':'o'}" onclick="S.tab='${x}';render()">${x}</button>`}).join('')}</div>${b}</div></section>`};
+render();
+</script></body></html>
